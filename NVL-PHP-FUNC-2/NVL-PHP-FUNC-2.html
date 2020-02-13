@@ -8,14 +8,10 @@
 </head>
 <body>
     <script>
-        function cuentaLetraA($palabra = "amapola") {
-            for(i=0; i<7; i++){
-                if($palabras == "a"){
-                    echo "El número de letra a que tiene amapola es:" .count($palabra);
-                }
-            }  
+        function cuentaLetras($palabra = "amapola", $otraLtra = "s") {
+            echo print_r(implode("-", $palabra+$otraLetra));
         }
-        cuentaLetraA();
+        cuentaLetras();
     </script>
 </body>
 </html>
